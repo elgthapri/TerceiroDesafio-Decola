@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#topo {
+    background-color: rgb(68, 88, 202);
+    height: 20vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+img {
+    width: 95vw;
+    height: 90vh;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+#base {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ladoEsquerdo {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 0%;
+    font-size:30px;
+    color: grey;   
+}
+
+#ladoDireito {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    font-size: 30px;
+    color: grey;
+}
